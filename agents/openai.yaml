@@ -1,0 +1,13 @@
+interface:
+  display_name: 凝聚态热点·老材料新机会
+  short_description: 复用研究记录，按物理重要性与可做性推荐历史单晶材料并按需查合成
+  default_prompt: 请用 $condmat-revival 围绕我指定的凝聚态话题，复用已有记录，按物理重要性和实验可做性列出历史单晶材料与来源，仅对选中的材料展开获取和合成调研。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
